@@ -1,22 +1,53 @@
-.introducao h1 {
-    font-size: 48px;
+header {
+    background-color: #364059;
+    color:#ffffff;
 }
 
-nav {
-    padding: 10 0 10 0;
+/*Ao que eu entendi, vai precisar fazer um import pra usar o Montserrat, um link que eu achei que pode ajudar: https://www.w3schools.com/howto/tryit.asp?font=Montserrat*/
+body {
+    font-family: 'Montserrat';
+    font-size: 16;
+    color: #000000;
 }
 
-nav table {
-    margin-left: auto;
-    margin-right: auto;
-    border-spacing: 10px;
-    border-collapse: collapse;
+h1, h3 {
+    font-style: bold;
+}
+.exemplo {
+    background-color: #364059;
+    color: #ffffff;
+    border-radius: 15%;
 }
 
-nav table th{
-    padding: 0 50;
+nav ul { /*Configuração da lista no navegador vertical, vai mudar posteriormente*/
+    background-color: #1b2b53;
+    color: inherit;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    position: fixed; /*Isso faz a lista permanecer na tela, mesmo scrollando*/
+    overflow: auto; /*Permite scrollar no navegador caso tenha itens demais*/
+    text-decoration: none;
 }
 
+li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+li a:hover{ /*Muda a cor do item do navegador, assim que o mouse passa por cima*/
+    background-color: #446cd0;
+}
+
+footer {
+    margin: 5 10 0 0;
+    text-align: end;
+    background-color: #364059;
+    color: #ffffff;
+}
 
 footer a {
     color: inherit;
