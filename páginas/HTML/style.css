@@ -44,7 +44,7 @@ nav:hover { /*menu ativando*/
 nav:hover ul{ /*Configuração da lista no navegador vertical quando ativado, vai mudar posteriormente*/
     display: inline-block;
     background-color: #1b2b53;
-    color: inherit;
+    color: #ffffff;
     list-style-type: none;
     margin: 0;
     padding: 0;
