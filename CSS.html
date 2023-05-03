@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Vamos aprender HTML e CSS</title>
+        <link rel="icon" href="/imagem/coding.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header></header>
+        <aside>
+            <nav>
+                <!-- trocar o <p> do icon por uma imagem q represente o menu
+                    e possivelmente adicionar mais itens a barra horizontal-->
+                <p id="icon">icon</p>
+                <ul>
+                    <li>
+                        <center><a href="index.html"> Inicio </a></center>
+                    </li>
+                    <li>
+                        <center><a href="páginas/HTML/HTML.html"> Sobre HTML </a></center>
+                    </li>
+                    <li>
+                        <center><a href="páginas/CSS/CSS.html"> Sobre CSS </a></center>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <center><h1> O básico do CSS </h1></center>    
+            <p>
+                CSS(*Cascade Style Sheet)* é uma linguagem utilizada em documentos HTML e XML, que descrever a apresentação do documento. Essa apresentação descrita pela CSS inclui configurações de diversos elementos que vão estar mencionados num documento, como seu próprio visual, cores, fonte, tamanho e entre outros.
+
+                Na **open web** o CSS é uma das linguagens principais usada principalmente em **web browsers** e sendo padronizada pela W3C(*World Wide Web Consortion*). Pelas padronizações existem diversas versões do CSS: o CSS1 que atualmente não é mais utilizado devido sua obsolescência, o CSS2.1 onde todas as instruções eram compactados em um único documento e por fim o CSS3 que quebra essas instruções e traz módulos e seletores menores que auxiliam os desenvolvedores.
+
+                Agora começaremos a explicar como realmente funciona o CSS, como dito anteriormente o CSS é uma linguagem que tem o objetivo de descrever a apresentação de documentos em web. Para realizar esse objetivo existem 3 estilos de aplicar a linguagem que podem ser realizadas de forma separada ou conjunto em um mesmo documento HTML/XML. Essas formas são:
+            
+                <ol type="1">
+                    <li>
+                        <b>Inline -</b> É quando se utiliza da ferramenta “style” dentro de uma tag de abertura em um documento, sendo útil para instâncias especificas dentro dele que provavelmente só vão acontecer uma vez. 
+                            <div class="exemplo">
+                                <.div style=”background-color: blue; width:400px; height:300px;”> 
+                                <!— Nesse quesito o CSS inline “style” está definindo a cor de fundo do <.div> como azul e configurando sua altura e largura —>
+                            </div>
+                    </li>
+                    <li>
+                        <b>Interno -</b> O estilo interno ainda é implementado dentro do documento HTML/XML e introduzido na tag <.head> do documento. Utilizando sua própria tag denominada <.style>.
+                        <div class="exemplo">
+                            <.head>
+                                <.style>
+                                    div {
+                                    background-color: blue;
+                                    width: 400px;
+                                    height: 300px;
+                                    }
+                                </.style>
+                            </.head>
+                            <!— Foi aplicado a mesma configuração do exemplo anterior para o div, só que agora no formato inline —>    
+                        </div>    
+                    </li>
+                    <li>
+                        <b>Externo -</b> Este último estilo de aplicação CSS é mais versátil que os demais, pois possibilita o reuso em diferentes documentos. Assim, não se utiliza da tag ou de qualquer menção do style, apenas é criado um documento de tipo “.css” que segue as configurações de cada tag como mostrado no estilo interno, isso é “seletor {declaração da instrução}”. Após criado, será somente necessário a importação do arquivo pelo seguinte comando: 
+                        <div class="exemplo">
+                            <.link rel=”stylesheet” href=”nome_do_arquivo.css”>
+                        </div>
+                    </li>
+                </ol>
+
+                
+            </p>
+        </main>
+        
+        <footer>
+            <p> 
+                Essa página foi feita pelos alunos Pedro Paz, João Vitor, Heberty Souza e Ana Luiza do 4°Info de 2023 do IFBA-Campus Irecê; <br>
+                <a href="https://www.flaticon.com/free-icons/coding" title="coding icons"> Coding icons created by Kiranshastry - Flaticon </a> 
+                <a href="https://www.flaticon.com/br/icones-gratis/cardapio" title="cardápio ícones">Cardápio ícones criados por FR_Media - Flaticon</a>
+            </p>
+        </footer>
+    </body>
+</html>
