@@ -22,7 +22,7 @@ h1, h3 {
 .exemplo {
     background-color: #1b2b53;
     color: #ffffff;
-    border-radius: 15%;
+    border-radius: 25%;
 }
 /*CONFIGURAÇÔES DO MENU (ativa passando o mouse por cima)*/
 nav{/*Menu desativado(apenas o icone)*/
