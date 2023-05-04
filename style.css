@@ -20,7 +20,7 @@ h1, h3 {
     font-style: bold;
 }
 .exemplo {
-    margin: 10 10 10 10;
+    border: 10 10 10 10;
     background-color: #1b2b53;
     color: #ffffff;
     border-radius: 25%;
