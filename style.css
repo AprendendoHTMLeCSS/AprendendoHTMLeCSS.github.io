@@ -55,7 +55,7 @@ nav:hover ul{ /*Configuração da lista no navegador vertical quando ativado, va
     padding: 0;
     width: 25%;
     height: 100%;
-    position: fixed; /*Isso faz a lista permanecer na tela, mesmo scrollando*/
+    position: static; /*Isso faz a lista permanecer na tela, mesmo scrollando*/
     overflow: auto; /*Permite scrollar no navegador caso tenha itens demais*/
     text-decoration: none;
 }
