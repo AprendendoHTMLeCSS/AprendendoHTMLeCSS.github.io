@@ -10,6 +10,7 @@ header {
 /*Ao que eu entendi, vai precisar fazer um import pra usar o Montserrat, um link que eu achei que pode ajudar: https://www.w3schools.com/howto/tryit.asp?font=Montserrat*/
 body {
     margin: 0px;
+    margin-left: 25px;
     font-family: 'Montserrat';
     font-size: 16;
     color: #000000;
