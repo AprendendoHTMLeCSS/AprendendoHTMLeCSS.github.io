@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head> <!--metatados relacionados a pagina-->
+        <title> Vamos aprender HTML e CSS</title>
+        <link rel="icon" href="/imagem/coding.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body> <!--a pagina-->
+        
+        <header> <!--imagem de capa-->
+            <center><img src="/imagem/capa.png"></center>
+        </header>
+
+        <div id="tudo"> <!--div com display flex para permitir o alinhamento lateral de conteudos-->
+             
+             <aside><!--primeira linha vertical dentro do div tudo, que conte a barra lateral -->
+                <nav><!--menu lateral-->
+                    <img src="imagem/cardapio.png" id="icon">
+                    <ul>
+                        <li>
+                            <center><a href="index.html"> Inicio </a></center>
+                        </li>
+                        <li>
+                            <center><a href="HTML.html"> Sobre HTML </a></center>
+                        </li>
+                        <li>
+                            <center><a href="CSS.html"> Sobre CSS </a></center>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <div id="conteudo"> <!--pagina central segunda linha vertical dentro do div tudo, onde ficam o main e o footer-->
+                <center>
+                    <main>
+                        <!--conteudos aqui-->
+                    </main>
+                </center>
+                <footer> <!--rodape na mesma linha vertical do main, logo abaixo dele-->
+                    <p> 
+                        Essa página foi feita pelos alunos Pedro Paz, João Vitor, Heberty Souza e Ana Luiza do 4°Info de 2023 do IFBA-Campus Irecê; <br>
+                        <a href="https://www.flaticon.com/free-icons/coding" title="coding icons"> Coding icons created by Kiranshastry - Flaticon </a> 
+                        <a href="https://www.flaticon.com/br/icones-gratis/cardapio" title="cardápio ícones">Cardápio ícones criados por FR_Media - Flaticon</a>
+                    </p>
+                </footer>
+            </div>
+            <!--algum conteudo adicionado aqui formaria a terceira fila vertical, do lado oposto ao menu-->
+        </div>
+        <!--não coloccar nada aqui, pois ficaria abaixo de todo o resto da pagina, incluindo o rodapé-->
+    </body>
+</html>

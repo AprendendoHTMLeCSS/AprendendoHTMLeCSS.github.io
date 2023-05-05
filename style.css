@@ -48,15 +48,15 @@ nav ul{/*itens do menu desativados*/
     margin-top: 0px;
 }
 nav:hover ul{ /*Configuração da lista no navegador vertical quando ativado, vai mudar posteriormente*/
-    display: inline-block;
+    display: inline;
     background-color: #1b2b53;
     color: white;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 25%;
     height: 100%;
-    position: static; /*Isso faz a lista permanecer na tela, mesmo scrollando*/
+    position: fixed; /*Isso faz a lista permanecer na tela, mesmo scrollando*/
     overflow: auto; /*Permite scrollar no navegador caso tenha itens demais*/
     text-decoration: none;
 }
